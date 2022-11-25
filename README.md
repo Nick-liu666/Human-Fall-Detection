@@ -2,8 +2,11 @@
 
 ## 文件介绍  
 ResNetLSTM.py: 主程序 Resnet50 + LSTM train
+
 image_preprocess.py:  处理图片转换成224x224的大小，居中剪切  
+
 data: 数据存放文件夹
+
 weight: 训练过的参数存档 
 
 # ResNetLSTM
