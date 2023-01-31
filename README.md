@@ -19,14 +19,15 @@ graph: 储存生成的loss， accuracy trend和confusion matirx的图像
 
 用训练好的ResNet50 网络从每一帧图像输入来提取对应feature map，之后在把连续的feature map作为一个sample输入LSTM 网络中进行训练，得出分类的结果。
 
-![](https://github.com/Nick-liu666/Human-Fall-Detection/blob/main/graph/structure.png)
+<img src="https://github.com/Nick-liu666/Human-Fall-Detection/blob/main/graph/structure.png" width="40%">
 
-![](https://github.com/Nick-liu666/Human-Fall-Detection/blob/main/graph/process%20video%20sample%20.png)
+<img src="https://github.com/Nick-liu666/Human-Fall-Detection/blob/main/graph/process%20video%20sample%20.png" width="40%">
 
-![](https://github.com/Nick-liu666/Human-Fall-Detection/blob/main/graph/frames%20samples.png)
+<img src="https://github.com/Nick-liu666/Human-Fall-Detection/blob/main/graph/frames%20samples.png" width="40%">
 
-![](https://github.com/Nick-liu666/Human-Fall-Detection/blob/main/graph/Training%20trend.png)
+<img src="https://github.com/Nick-liu666/Human-Fall-Detection/blob/main/graph/Training%20trend.png" width="40%">
 
-![](https://github.com/Nick-liu666/Human-Fall-Detection/blob/main/graph/CM.png)
+<img src="https://github.com/Nick-liu666/Human-Fall-Detection/blob/main/graph/CM.png" width="40%">
+
 
 详细信息在[幻灯片中](https://github.com/Nick-liu666/Human-Fall-Detection/blob/main/human_fall_detect.pdf) (如果打不开，尝试下载打开)
