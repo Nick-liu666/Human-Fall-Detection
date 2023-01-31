@@ -19,13 +19,23 @@ graph: 储存生成的loss， accuracy trend和confusion matirx的图像
 
 用训练好的ResNet50 网络从每一帧图像输入来提取对应feature map，之后在把连续的feature map作为一个sample输入LSTM 网络中进行训练，得出分类的结果。
 
+ResNet50 + LSTM的网络结构
+
 <img src="https://github.com/Nick-liu666/Human-Fall-Detection/blob/main/graph/structure.png" width="40%">
+
+预处理输入视频
 
 <img src="https://github.com/Nick-liu666/Human-Fall-Detection/blob/main/graph/process%20video%20sample%20.png" width="40%">
 
+提取帧数的例子
+
 <img src="https://github.com/Nick-liu666/Human-Fall-Detection/blob/main/graph/frames%20samples.png" width="40%">
 
+训练趋势图
+
 <img src="https://github.com/Nick-liu666/Human-Fall-Detection/blob/main/graph/Training%20trend.png" width="40%">
+
+混淆矩阵(confusion matrix)
 
 <img src="https://github.com/Nick-liu666/Human-Fall-Detection/blob/main/graph/CM.png" width="40%">
 
